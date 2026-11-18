@@ -1,0 +1,1224 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>溏心vlog在线观看唐伯虎-栏目结构与观看指南</title>
+<meta name="description" content="溏心vlog在线观看唐伯虎栏目导航页，整理唐伯虎系列、溏心日常vlog与幕后花絮的分集目录、观看顺序、更新记录和常见问题，按发布日期与主题归档，便于逐集查找与回看。">
+<meta name="keywords" content="溏心vlog在线观看唐伯虎">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b3441f'/%3E%3Ccircle cx='32' cy='30' r='13' fill='%23fbe9c6'/%3E%3Cellipse cx='26' cy='28' rx='2.4' ry='3' fill='%233a2318'/%3E%3Cellipse cx='38' cy='28' rx='2.4' ry='3' fill='%233a2318'/%3E%3Cpath d='M25 36q7 6 14 0' stroke='%233a2318' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3Cpath d='M32 44v10' stroke='%23fbe9c6' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#2a1d16;
+    --ink-soft:#5b4638;
+    --ink-faint:#8a7264;
+    --paper:#fdf8f0;
+    --paper-2:#f7eddd;
+    --card:#fffdf8;
+    --line:#e6d6c0;
+    --line-strong:#cdb394;
+    --brand:#b3441f;
+    --brand-deep:#8c3115;
+    --brand-soft:#f6e2d6;
+    --accent:#2f6b5e;
+    --accent-soft:#e2efe9;
+    --warn:#a67318;
+    --warn-soft:#fbf0d6;
+    --radius-s:8px;
+    --radius-m:14px;
+    --radius-l:22px;
+    --shadow-s:0 1px 2px rgba(42,29,22,.06),0 2px 8px rgba(42,29,22,.05);
+    --shadow-m:0 4px 18px rgba(42,29,22,.09);
+    --gap:clamp(16px,2.4vw,28px);
+    --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --serif:"Songti SC","Noto Serif SC",Georgia,"Times New Roman",serif;
+    --announce-h:38px;
+    --header-h:62px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:calc(var(--announce-h) + var(--header-h) + 12px)}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--font);line-height:1.78;font-size:16px;
+    -webkit-text-size-adjust:100%;
+  }
+  body.menu-open{overflow:hidden}
+  img{max-width:100%;display:block}
+  a{color:var(--brand-deep);text-decoration:none}
+  a:hover{text-decoration:underline}
+  h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700;letter-spacing:.01em}
+  p{margin:0 0 .85em}
+  ul,ol{margin:0 0 .85em;padding-left:1.3em}
+  li{margin-bottom:.4em}
+  button{font-family:inherit;font-size:inherit}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+  .skip{position:absolute;left:8px;top:-60px;background:var(--brand);color:#fff;padding:8px 14px;border-radius:var(--radius-s);z-index:200;transition:top .2s}
+  .skip:focus{top:8px}
+
+  /* 吸顶组 */
+  .stick-wrap{position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(42,29,22,.06)}
+  .announce{
+    height:var(--announce-h);display:flex;align-items:center;gap:10px;
+    background:linear-gradient(90deg,var(--brand-deep),var(--brand) 60%,#c25c30);
+    color:#fff;font-size:13px;padding:0 clamp(12px,3vw,28px);
+    overflow:hidden;white-space:nowrap;
+  }
+  .announce .tag{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:1px 9px;font-size:11.5px;letter-spacing:.04em;flex:none}
+  .announce .txt{overflow:hidden;text-overflow:ellipsis}
+  .announce a{color:#fff;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+  .header{
+    height:var(--header-h);background:rgba(253,248,240,.94);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);display:flex;align-items:center;gap:clamp(8px,2vw,22px);
+    padding:0 clamp(12px,3vw,28px);
+  }
+  .brand{display:flex;align-items:center;gap:10px;flex:none}
+  .brand-mark{width:38px;height:38px;flex:none}
+  .brand-word{font-weight:800;font-size:15.5px;letter-spacing:.02em;color:var(--ink);line-height:1.15;max-width:96px}
+  .nav-desktop{display:flex;gap:2px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}
+  .nav-desktop::-webkit-scrollbar{display:none}
+  .nav-desktop a{
+    padding:6px 10px;border-radius:999px;font-size:14px;color:var(--ink-soft);white-space:nowrap;
+    transition:background .15s,color .15s;
+  }
+  .nav-desktop a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+  .header-actions{display:flex;align-items:center;gap:8px;flex:none}
+  .btn-search{
+    display:flex;align-items:center;gap:6px;border:1px solid var(--line-strong);background:var(--card);
+    color:var(--ink-soft);border-radius:999px;padding:6px 12px;font-size:13.5px;cursor:pointer;
+  }
+  .btn-search:hover{border-color:var(--brand);color:var(--brand-deep)}
+  .btn-menu{
+    display:none;border:1px solid var(--line-strong);background:var(--card);border-radius:10px;
+    width:40px;height:36px;cursor:pointer;position:relative;
+  }
+  .btn-menu span,.btn-menu span::before,.btn-menu span::after{
+    position:absolute;left:50%;translate:-50% 0;width:18px;height:2px;background:var(--ink);border-radius:2px;content:"";
+  }
+  .btn-menu span{top:17px}
+  .btn-menu span::before{top:-6px}
+  .btn-menu span::after{top:6px}
+
+  .drawer{
+    position:fixed;inset:calc(var(--announce-h) + var(--header-h)) 0 0 0;background:var(--paper);
+    z-index:99;padding:18px clamp(14px,4vw,28px) 40px;overflow:auto;display:none;
+  }
+  .drawer.open{display:block}
+  .drawer nav{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:20px}
+  .drawer nav a{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-s);padding:11px 12px;font-size:14.5px;color:var(--ink-soft)}
+  .drawer nav a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+
+  .wrap{max-width:1200px;margin:0 auto;padding:0 clamp(14px,3vw,28px)}
+
+  /* 首屏 */
+  .hero{
+    position:relative;overflow:hidden;border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(900px 320px at 88% -10%,var(--brand-soft),transparent 70%),
+      linear-gradient(180deg,#fdf6ea,var(--paper));
+  }
+  .hero-inner{
+    display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+    gap:clamp(20px,4vw,52px);align-items:center;
+    padding:clamp(26px,4.6vw,58px) 0 clamp(30px,5vw,60px);
+  }
+  .hero-kicker{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+  .chip{
+    display:inline-block;font-size:12.5px;padding:3px 11px;border-radius:999px;
+    background:var(--card);border:1px solid var(--line-strong);color:var(--ink-soft);letter-spacing:.02em;
+  }
+  .chip.brand{background:var(--brand);border-color:var(--brand);color:#fff}
+  .hero h1{font-size:clamp(27px,4.2vw,44px);letter-spacing:-.01em;margin-bottom:14px}
+  .hero h1 .em{color:var(--brand-deep)}
+  .hero-desc{font-size:clamp(15px,1.6vw,17px);color:var(--ink-soft);max-width:34em;margin-bottom:20px}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+  .btn{
+    display:inline-flex;align-items:center;gap:7px;border-radius:999px;padding:10px 20px;
+    font-weight:600;font-size:15px;border:1px solid transparent;cursor:pointer;
+    transition:transform .15s,background .15s,box-shadow .15s;
+  }
+  .btn-primary{background:var(--brand);color:#fff;box-shadow:var(--shadow-s)}
+  .btn-primary:hover{background:var(--brand-deep);text-decoration:none;transform:translateY(-1px)}
+  .btn-ghost{background:var(--card);border-color:var(--line-strong);color:var(--ink)}
+  .btn-ghost:hover{border-color:var(--brand);color:var(--brand-deep);text-decoration:none;transform:translateY(-1px)}
+  .hero-stats{display:flex;flex-wrap:wrap;gap:10px 26px;font-size:13.5px;color:var(--ink-faint);border-top:1px dashed var(--line-strong);padding-top:14px}
+  .hero-stats b{display:block;font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.25}
+
+  .hero-art{position:relative;min-height:280px}
+  .hero-art svg{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 26px rgba(140,49,21,.13))}
+  .art-caption{
+    margin-top:10px;font-size:12.5px;color:var(--ink-faint);text-align:center;
+  }
+
+  /* 主布局 */
+  .layout{
+    display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(20px,3vw,40px);
+    padding:clamp(24px,3.4vw,44px) 0 clamp(40px,5vw,64px);align-items:start;
+  }
+  main{min-width:0}
+
+  section.block{margin-bottom:clamp(30px,4.4vw,54px);scroll-margin-top:calc(var(--announce-h) + var(--header-h) + 14px)}
+  .sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:16px;border-bottom:2px solid var(--line);padding-bottom:9px}
+  .sec-head h2{font-size:clamp(20px,2.5vw,26px);position:relative;padding-left:13px}
+  .sec-head h2::before{content:"";position:absolute;left:0;top:.16em;bottom:.16em;width:5px;border-radius:3px;background:var(--brand)}
+  .sec-head .meta{font-size:12.5px;color:var(--ink-faint);white-space:nowrap}
+  .sec-desc{color:var(--ink-soft);font-size:14.5px;margin:-4px 0 16px}
+
+  /* 概览统计 */
+  .overview-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}
+  .stat-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 15px;box-shadow:var(--shadow-s)}
+  .stat-card .num{font-size:clamp(22px,3vw,29px);font-weight:800;color:var(--brand-deep);font-variant-numeric:tabular-nums;line-height:1.15}
+  .stat-card .lbl{font-size:13px;color:var(--ink-faint);margin-top:2px}
+  .overview-note{font-size:14px;color:var(--ink-soft);background:var(--paper-2);border-left:3px solid var(--line-strong);padding:11px 15px;border-radius:0 var(--radius-s) var(--radius-s) 0}
+  .overview-note b{color:var(--ink)}
+
+  /* 精选内容 */
+  .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+  .fcard{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;
+    display:flex;flex-direction:column;box-shadow:var(--shadow-s);transition:transform .18s,box-shadow .18s;
+  }
+  .fcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+  .fcard img{width:100%;height:150px;object-fit:cover;background:var(--paper-2)}
+  .fcard .body{padding:13px 15px 15px;display:flex;flex-direction:column;gap:7px;flex:1}
+  .fcard .eyebrow{font-size:11.5px;letter-spacing:.06em;color:var(--brand);font-weight:700}
+  .fcard h3{font-size:16px;line-height:1.45}
+  .fcard h3 a{color:var(--ink)}
+  .fcard h3 a:hover{color:var(--brand-deep);text-decoration:none}
+  .fcard p{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .fcard .foot{margin-top:auto;font-size:12px;color:var(--ink-faint);display:flex;justify-content:space-between;gap:8px;border-top:1px dashed var(--line);padding-top:8px}
+
+  /* 最新更新 紧凑列表 */
+  .update-list{list-style:none;padding:0;margin:0;border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:var(--card)}
+  .update-list li{display:grid;grid-template-columns:86px 1fr auto;gap:10px;align-items:baseline;padding:11px 15px;border-bottom:1px solid var(--line);margin:0;font-size:14.5px}
+  .update-list li:last-child{border-bottom:0}
+  .update-list .date{color:var(--ink-faint);font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .update-list .what{color:var(--ink-soft)}
+  .update-list .what b{color:var(--ink)}
+  .update-list .badge{font-size:11.5px;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+  .update-list .badge.new{background:var(--brand-soft);color:var(--brand-deep)}
+
+  /* 分类入口 标签索引 */
+  .tag-index{display:flex;flex-wrap:wrap;gap:9px}
+  .tag-index a{
+    display:inline-flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line-strong);
+    border-radius:999px;padding:7px 14px;font-size:14px;color:var(--ink-soft);
+    transition:background .15s,color .15s,border-color .15s;
+  }
+  .tag-index a:hover{background:var(--brand-soft);color:var(--brand-deep);border-color:var(--brand);text-decoration:none}
+  .tag-index .n{font-size:11.5px;color:var(--ink-faint);background:var(--paper-2);border-radius:999px;padding:0 7px}
+  .tag-index a:hover .n{color:var(--brand-deep)}
+
+  /* 深度解析 分栏正文 */
+  .article{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius-l);
+    padding:clamp(18px,3vw,32px);box-shadow:var(--shadow-s);
+  }
+  .article .lede{font-size:15.5px;color:var(--ink-soft);border-left:3px solid var(--brand);padding-left:14px;margin-bottom:22px}
+  .article h3{font-size:18px;margin:26px 0 10px;padding-top:4px}
+  .article h3:first-of-type{margin-top:0}
+  .article h3 .idx{color:var(--brand);font-size:14px;margin-right:7px;font-variant-numeric:tabular-nums}
+  .article p{font-size:15.2px;color:#3c2d24}
+  .article .cols{column-count:2;column-gap:30px;column-rule:1px solid var(--line)}
+  .article .cols p{margin:0 0 .9em}
+  .pullquote{
+    background:var(--brand-soft);border-radius:var(--radius-m);padding:14px 18px;margin:18px 0;
+    font-family:var(--serif);font-size:16.5px;color:var(--brand-deep);line-height:1.7;
+    border-left:4px solid var(--brand);
+  }
+  .pullquote cite{display:block;font-size:12.5px;font-family:var(--font);color:var(--ink-faint);font-style:normal;margin-top:6px}
+
+  /* 判断拆解表 */
+  .judge-table{width:100%;border-collapse:collapse;font-size:14px;margin:14px 0 20px;background:var(--card)}
+  .judge-table caption{text-align:left;font-size:13px;color:var(--ink-faint);padding-bottom:6px}
+  .judge-table th,.judge-table td{border:1px solid var(--line-strong);padding:9px 11px;text-align:left;vertical-align:top}
+  .judge-table thead th{background:var(--paper-2);font-size:13px;color:var(--ink-soft)}
+  .judge-table tbody th{background:#fcf6ec;font-weight:600;white-space:nowrap;font-size:13.5px}
+  .lvl{display:inline-block;font-size:11.5px;padding:1px 7px;border-radius:4px;font-weight:600;white-space:nowrap}
+  .lvl.fact{background:var(--accent-soft);color:var(--accent)}
+  .lvl.reply{background:var(--warn-soft);color:var(--warn)}
+  .lvl.relay{background:#ece7f6;color:#5b4699}
+  .lvl.guess{background:#f3e3e3;color:#a03b3b}
+
+  /* 体验指南 编号步骤 */
+  .steps{list-style:none;padding:0;margin:0;counter-reset:step}
+  .steps li{
+    position:relative;padding:14px 16px 14px 58px;background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius-m);margin-bottom:10px;counter-increment:step;
+  }
+  .steps li::before{
+    content:counter(step,decimal-leading-zero);position:absolute;left:15px;top:14px;
+    width:31px;height:31px;border-radius:50%;background:var(--brand);color:#fff;
+    display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;
+    font-variant-numeric:tabular-nums;
+  }
+  .steps li b{display:block;font-size:15.5px;margin-bottom:2px}
+  .steps li span{font-size:14px;color:var(--ink-soft)}
+
+  /* 对照面板 */
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .compare .panel{border:1px solid var(--line);border-radius:var(--radius-m);overflow:hidden;background:var(--card)}
+  .compare .panel h3{font-size:15px;padding:11px 15px;background:var(--paper-2);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .compare .panel h3 .dot{width:9px;height:9px;border-radius:50%;background:var(--line-strong);flex:none}
+  .compare .panel.ok h3{background:var(--accent-soft)}
+  .compare .panel.ok h3 .dot{background:var(--accent)}
+  .compare .panel.no h3{background:#f7ece6}
+  .compare .panel.no h3 .dot{background:var(--brand)}
+  .compare ul{list-style:none;padding:12px 15px;margin:0}
+  .compare li{font-size:13.8px;padding-left:17px;position:relative;color:var(--ink-soft);margin-bottom:8px}
+  .compare li::before{content:"";position:absolute;left:3px;top:.66em;width:5px;height:5px;border-radius:50%;background:var(--line-strong)}
+  .compare .panel.ok li::before{background:var(--accent)}
+  .compare .panel.no li::before{background:var(--brand)}
+
+  /* FAQ */
+  .faq details{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);
+    margin-bottom:9px;overflow:hidden;
+  }
+  .faq summary{
+    cursor:pointer;list-style:none;padding:13px 44px 13px 16px;font-weight:600;font-size:15px;
+    position:relative;color:var(--ink);
+  }
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{
+    content:"";position:absolute;right:17px;top:50%;width:9px;height:9px;
+    border-right:2px solid var(--brand);border-bottom:2px solid var(--brand);
+    transform:translateY(-70%) rotate(45deg);transition:transform .18s;
+  }
+  .faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+  .faq details[open] summary{background:var(--paper-2)}
+  .faq .ans{padding:13px 16px 15px;font-size:14.6px;color:var(--ink-soft);border-top:1px solid var(--line)}
+  .faq .ans p:last-child{margin-bottom:0}
+
+  /* 用户评论 */
+  .comments{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+  .cmt{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 16px;box-shadow:var(--shadow-s);display:flex;flex-direction:column;gap:8px}
+  .cmt-top{display:flex;align-items:center;gap:9px}
+  .avatar{width:34px;height:34px;border-radius:50%;background:var(--brand-soft);color:var(--brand-deep);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex:none}
+  .cmt-top .who{font-size:13.5px;font-weight:600}
+  .cmt-top .when{font-size:11.5px;color:var(--ink-faint)}
+  .cmt p{font-size:14px;margin:0;color:#3c2d24}
+  .cmt .ref{font-size:12px;color:var(--ink-faint);border-top:1px dashed var(--line);padding-top:7px}
+  .cmt .ref b{color:var(--brand-deep);font-weight:600}
+  .stars{color:var(--warn);font-size:13px;letter-spacing:1px}
+
+  /* 相关资讯 */
+  .news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .news-item{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 14px;transition:border-color .15s}
+  .news-item:hover{border-color:var(--line-strong)}
+  .news-item .day{flex:none;text-align:center;font-variant-numeric:tabular-nums;color:var(--ink-faint);font-size:11.5px;line-height:1.3;border-right:1px solid var(--line);padding-right:11px;min-width:52px}
+  .news-item .day b{display:block;font-size:19px;color:var(--brand-deep)}
+  .news-item h3{font-size:14.6px;margin-bottom:3px}
+  .news-item h3 a{color:var(--ink)}
+  .news-item h3 a:hover{color:var(--brand-deep);text-decoration:none}
+  .news-item p{font-size:13px;color:var(--ink-soft);margin:0}
+
+  /* 相关推荐 标签 */
+  .reco-groups{display:grid;gap:14px}
+  .reco-group{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:13px 15px}
+  .reco-group h3{font-size:14px;color:var(--ink-soft);margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .reco-group h3::before{content:"";width:4px;height:13px;background:var(--accent);border-radius:2px}
+  .reco-group .tags{display:flex;flex-wrap:wrap;gap:7px}
+  .reco-group .tags a{font-size:13px;background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius-s);padding:4px 10px;color:var(--ink-soft)}
+  .reco-group .tags a:hover{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);text-decoration:none}
+
+  /* 时间线 */
+  .timeline{position:relative;padding-left:22px;margin:0;list-style:none}
+  .timeline::before{content:"";position:absolute;left:6px;top:4px;bottom:4px;width:2px;background:var(--line-strong)}
+  .timeline li{position:relative;margin-bottom:16px;padding-left:2px}
+  .timeline li::before{content:"";position:absolute;left:-21px;top:.5em;width:10px;height:10px;border-radius:50%;background:var(--card);border:2px solid var(--brand)}
+  .timeline .t-date{font-size:12.5px;color:var(--brand-deep);font-weight:700;font-variant-numeric:tabular-nums}
+  .timeline .t-title{font-size:15px;font-weight:600;margin:1px 0 2px}
+  .timeline .t-desc{font-size:13.6px;color:var(--ink-soft);margin:0}
+
+  /* 侧栏 */
+  aside{position:sticky;top:calc(var(--announce-h) + var(--header-h) + 14px);display:flex;flex-direction:column;gap:16px}
+  .side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:15px 16px;box-shadow:var(--shadow-s)}
+  .side-card h2{font-size:15px;margin-bottom:10px;display:flex;align-items:center;gap:7px}
+  .side-card h2::before{content:"";width:4px;height:14px;background:var(--brand);border-radius:2px}
+  .side-nav{list-style:none;padding:0;margin:0;font-size:14px}
+  .side-nav li{margin:0}
+  .side-nav a{display:block;padding:6px 10px;border-radius:var(--radius-s);color:var(--ink-soft);border-left:2px solid transparent}
+  .side-nav a:hover{background:var(--paper-2);text-decoration:none;color:var(--ink)}
+  .side-nav a.active{background:var(--brand-soft);color:var(--brand-deep);font-weight:600;border-left-color:var(--brand)}
+  .side-note{font-size:13px;color:var(--ink-faint);line-height:1.7}
+  .side-note b{color:var(--ink-soft)}
+  .rank-list{list-style:none;padding:0;margin:0;counter-reset:rank}
+  .rank-list li{display:flex;gap:9px;align-items:baseline;font-size:13.6px;padding:6px 0;border-bottom:1px dashed var(--line);margin:0;counter-increment:rank}
+  .rank-list li:last-child{border-bottom:0}
+  .rank-list li::before{content:counter(rank);font-weight:800;color:var(--line-strong);font-size:13px;width:16px;flex:none;text-align:right}
+  .rank-list li:nth-child(-n+3)::before{color:var(--brand)}
+  .rank-list a{color:var(--ink-soft)}
+  .rank-list a:hover{color:var(--brand-deep);text-decoration:none}
+  .rank-list .r-n{font-size:11.5px;color:var(--ink-faint);margin-left:auto;white-space:nowrap}
+
+  /* 搜索浮层 */
+  .search-layer{position:fixed;inset:0;background:rgba(42,29,22,.42);z-index:150;display:none;padding:clamp(16px,8vh,90px) 16px 16px}
+  .search-layer.open{display:block}
+  .search-box{max-width:560px;margin:0 auto;background:var(--card);border-radius:var(--radius-l);padding:18px;box-shadow:0 18px 50px rgba(42,29,22,.28)}
+  .search-box form{display:flex;gap:8px}
+  .search-box input[type=search]{
+    flex:1;min-width:0;border:1px solid var(--line-strong);border-radius:999px;padding:11px 16px;font-size:15px;
+    background:var(--paper);color:var(--ink);font-family:inherit;
+  }
+  .search-box .result{margin-top:14px;max-height:52vh;overflow:auto;font-size:14px}
+  .search-box .result a{display:block;padding:9px 11px;border-radius:var(--radius-s);color:var(--ink-soft);border-bottom:1px solid var(--line)}
+  .search-box .result a:hover{background:var(--paper-2);text-decoration:none;color:var(--brand-deep)}
+  .search-box .result .no-res{color:var(--ink-faint);padding:10px 4px}
+  .search-box .hint{font-size:12px;color:var(--ink-faint);margin-top:10px}
+
+  /* 页脚 */
+  footer{background:#2a1d16;color:#e8dccd;padding:clamp(30px,4.5vw,52px) 0 22px;margin-top:10px}
+  .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:clamp(18px,3vw,36px);margin-bottom:26px}
+  .foot-brand{display:flex;align-items:center;gap:10px;margin-bottom:11px}
+  .foot-brand svg{width:36px;height:36px;flex:none}
+  .foot-brand b{font-size:16px;letter-spacing:.02em;color:#fff}
+  .foot-pos{font-size:13.6px;color:#bfae9c;line-height:1.75;max-width:26em;margin-bottom:14px}
+  .foot-update{font-size:12.5px;color:#9c8a78;border-top:1px solid #43332a;padding-top:10px}
+  footer h3{font-size:13.5px;color:#f3e3d2;margin-bottom:9px;letter-spacing:.04em}
+  footer ul{list-style:none;padding:0;margin:0;font-size:13.4px}
+  footer li{margin-bottom:7px}
+  footer a{color:#c9b8a6}
+  footer a:hover{color:#fff}
+  .foot-bottom{border-top:1px solid #43332a;padding-top:15px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;font-size:12.5px;color:#9c8a78}
+  .foot-example{font-size:12px;color:#8d7a68;line-height:1.7;margin:0 0 10px}
+
+  /* 回到顶部 */
+  #toTop{
+    position:fixed;right:clamp(12px,3vw,26px);bottom:clamp(14px,3vw,28px);z-index:90;
+    width:44px;height:44px;border-radius:50%;border:1px solid var(--line-strong);background:var(--card);
+    color:var(--brand-deep);font-size:18px;cursor:pointer;box-shadow:var(--shadow-m);
+    display:none;align-items:center;justify-content:center;transition:transform .15s,background .15s;
+  }
+  #toTop.show{display:flex}
+  #toTop:hover{background:var(--brand-soft);transform:translateY(-2px)}
+
+  @media (max-width:1000px){
+    .layout{grid-template-columns:minmax(0,1fr)}
+    aside{position:static;order:2;display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+    .side-card{box-shadow:none}
+    .hero-inner{grid-template-columns:1fr;gap:22px}
+    .hero-art{max-width:520px;min-height:0}
+    .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .overview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .foot-grid{grid-template-columns:1fr 1fr}
+    .nav-desktop{display:none}
+    .btn-menu{display:block}
+    .article .cols{column-count:1}
+  }
+  @media (max-width:720px){
+    body{font-size:15.5px}
+    .hero-stats{gap:10px 20px}
+    .feature-grid{grid-template-columns:1fr}
+    .comments{grid-template-columns:1fr}
+    .news-grid{grid-template-columns:1fr}
+    .compare{grid-template-columns:1fr}
+    .update-list li{grid-template-columns:74px 1fr;row-gap:3px}
+    .update-list .badge{grid-column:2;justify-self:start}
+    .btn-search .label{display:none}
+    .btn-search{padding:7px 10px}
+    aside{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:400px){
+    .brand-word{max-width:72px;font-size:14px}
+    .hero-actions .btn{padding:9px 16px;font-size:14px}
+    .overview-grid{grid-template-columns:1fr 1fr}
+    .sec-head .meta{white-space:normal}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *{transition:none!important;animation:none!important}
+    .fcard:hover,.btn:hover,#toTop:hover{transform:none!important}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<div class="stick-wrap">
+  <div class="announce">
+    <span class="tag">更新</span>
+    <span class="txt">11月7日上线「唐伯虎·桃花坞对诗」下集，并补齐第 3 季幕后花絮 4 条 · <a href="/#latest">查看全部更新记录</a></span>
+  </div>
+  <header class="header">
+    <a class="brand" href="/#top" aria-label="返回顶部">
+      <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="溏心vlog在线观看唐伯虎标志：碗中溏心蛋黄与毛笔">
+        <rect width="64" height="64" rx="15" fill="#b3441f"/>
+        <path d="M12 33h40c-1.6 12-9 19-20 19S13.6 45 12 33z" fill="#fbe9c6"/>
+        <circle cx="32" cy="27" r="9" fill="#ff9b3d"/>
+        <circle cx="32" cy="27" r="4.6" fill="#ffcf5c"/>
+        <path d="M44 12l3 5 5 1-4 4 1 5-5-3-5 3 1-5-4-4 5-1z" fill="#fff3dc" opacity=".92"/>
+        <path d="M20 14c3 3 2 7 0 9" stroke="#fff3dc" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-word">溏心vlog在线观看唐伯虎</span>
+    </a>
+    <nav class="nav-desktop" aria-label="主题导航">
+      <a href="/#overview">栏目概览</a>
+      <a href="/#featured">精选取集</a>
+      <a href="/#latest">更新记录</a>
+      <a href="/#channels">分类索引</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">观看指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">观众评论</a>
+      <a href="/#news">相关资讯</a>
+    </nav>
+    <div class="header-actions">
+      <button class="btn-search" type="button" id="searchOpen" aria-label="打开站内搜索">
+        <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="label">搜索条目</span>
+      </button>
+      <button class="btn-menu" type="button" id="menuBtn" aria-label="打开栏目菜单" aria-expanded="false" aria-controls="drawer"><span></span></button>
+    </div>
+  </header>
+</div>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav aria-label="移动端栏目菜单">
+    <a href="/#overview">栏目概览</a>
+    <a href="/#featured">精选取集</a>
+    <a href="/#latest">更新记录</a>
+    <a href="/#channels">分类索引</a>
+    <a href="/#deep">深度解析</a>
+    <a href="/#guide">观看指南</a>
+    <a href="/#compare">版本对照</a>
+    <a href="/#faq">常见问题</a>
+    <a href="/#comments">观众评论</a>
+    <a href="/#news">相关资讯</a>
+    <a href="/#reco">相关推荐</a>
+    <a href="/#timeline">时间线</a>
+  </nav>
+</div>
+
+<main id="main">
+  <div id="top"></div>
+
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-inner">
+      <div>
+        <div class="hero-kicker">
+          <span class="chip brand">唐伯虎系列</span>
+          <span class="chip">溏心日常</span>
+          <span class="chip">幕后花絮</span>
+          <span class="chip">对诗特辑</span>
+        </div>
+        <h1 id="hero-title">溏心vlog在线观看唐伯虎</h1>
+        <p class="hero-desc">把「唐伯虎点秋香」的江南段子拆成可逐集回看的短栏目：正片、对诗加更、拍摄花絮各自成档，按发布日期、角色、场景三条线索归档，找一集不用翻整站。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/#featured">从精选取集开始</a>
+          <a class="btn btn-ghost" href="/#latest">看11月7日更新</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>46</b>已归档正片</div>
+          <div><b>12</b>幕后花絮</div>
+          <div><b>3</b>对诗加更</div>
+          <div><b>11-07</b>最近一次更新</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 460 330" role="presentation">
+          <defs>
+            <linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#fbe6cf"/><stop offset="1" stop-color="#fdf8f0"/>
+            </linearGradient>
+            <linearGradient id="gInk" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#b3441f"/><stop offset="1" stop-color="#8c3115"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="460" height="330" rx="24" fill="url(#gSky)"/>
+          <circle cx="372" cy="66" r="30" fill="#f7c98f" opacity=".85"/>
+          <path d="M0 246c60-26 112-8 168-24s110-42 168-22 84 16 124 4v126H0z" fill="#efd9b9" opacity=".75"/>
+          <path d="M0 272c70-16 120 6 176-6s118-30 176-14 74 10 108 2v76H0z" fill="#e3c8a0" opacity=".7"/>
+          <!-- 桥 -->
+          <path d="M86 258q60-52 120 0" fill="none" stroke="#8a7264" stroke-width="6" stroke-linecap="round"/>
+          <path d="M96 256v-16M116 244v-14M136 240v-12M156 240v-12M176 244v-14M196 256v-16" stroke="#8a7264" stroke-width="3" stroke-linecap="round"/>
+          <!-- 桥上行者 -->
+          <g>
+            <circle cx="150" cy="196" r="8" fill="#3a2318"/>
+            <path d="M150 204v20M150 212l-11 9M150 212l11 9M150 224l-8 14M150 224l8 14" stroke="#3a2318" stroke-width="3.4" stroke-linecap="round"/>
+            <path d="M164 196l14-24" stroke="#3a2318" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M176 168l6 6-6 6-6-6z" fill="#b3441f"/>
+          </g>
+          <!-- 卷轴 -->
+          <g transform="translate(252 118)">
+            <rect x="0" y="0" width="150" height="104" rx="8" fill="#fffdf8" stroke="#cdb394" stroke-width="2"/>
+            <rect x="-7" y="-6" width="12" height="116" rx="6" fill="url(#gInk)"/>
+            <rect x="145" y="-6" width="12" height="116" rx="6" fill="url(#gInk)"/>
+            <path d="M18 26h112M18 46h84M18 66h96M18 86h60" stroke="#c9a98a" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="116" cy="82" r="9" fill="#b3441f"/>
+            <path d="M112 82l3 3 6-7" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <!-- 桃花枝 -->
+          <path d="M40 40c34 6 52 26 60 54" stroke="#8c3115" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <g fill="#f08a8a">
+            <circle cx="72" cy="46" r="6"/><circle cx="88" cy="60" r="5"/><circle cx="60" cy="62" r="4.6"/>
+            <circle cx="100" cy="80" r="5.4"/><circle cx="48" cy="82" r="4"/>
+          </g>
+          <g fill="#ffd6d6">
+            <circle cx="78" cy="42" r="2.6"/><circle cx="94" cy="56" r="2.4"/><circle cx="106" cy="76" r="2.6"/>
+          </g>
+        </svg>
+        <p class="art-caption">江南脚本·桥头对诗一场，取自第 3 季第 6 集分镜示意</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <div>
+      <!-- 领域概览 -->
+      <section class="block" id="overview" aria-labelledby="overview-h">
+        <div class="sec-head">
+          <h2 id="overview-h">栏目概览：三类档案、一条时间主线</h2>
+          <span class="meta">统计截至 2026-11-08</span>
+        </div>
+        <div class="overview-grid">
+          <div class="stat-card"><div class="num">46</div><div class="lbl">唐伯虎正片集</div></div>
+          <div class="stat-card"><div class="num">18</div><div class="lbl">溏心日常vlog</div></div>
+          <div class="stat-card"><div class="num">12</div><div class="lbl">幕后花絮条目</div></div>
+          <div class="stat-card"><div class="num">7</div><div class="lbl">角色支线（秋香、华夫人等）</div></div>
+        </div>
+        <p class="overview-note">正片第 1—3 季完整在档；第 4 季 <b>「桃花坞对诗」</b> 已更至下集（11月7日）。日常vlog 与正片共享布景，但剪辑节奏不同，适合先看日常熟悉口条，再补正片。</p>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="block" id="featured" aria-labelledby="featured-h">
+        <div class="sec-head">
+          <h2 id="featured-h">精选取集：五个入口各解决一种观看需求</h2>
+          <span class="meta">按「看得懂剧情」排序</span>
+        </div>
+        <div class="feature-grid">
+          <article class="fcard">
+            <img src="https://picsum.photos/seed/tangbohu-bridge/480/300" width="480" height="300" loading="lazy" alt="石桥与水面场景，用于唐伯虎桥头对诗一集配图">
+            <div class="body">
+              <span class="eyebrow">剧情入门</span>
+              <h3><a href="/#latest">唐伯虎点秋香桥头对诗（第 3 季第 6 集）</a></h3>
+              <p>一场戏里出现三种「对」，文对、戏对、岔对。第一次看建议从这集起，后面花絮里的梗都从这里长出来。</p>
+              <div class="foot"><span>时长 12分40秒</span><span>10-26</span></div>
+            </div>
+          </article>
+          <article class="fcard">
+            <img src="https://picsum.photos/seed/tangbohu-daily-cup/480/300" width="480" height="300" loading="lazy" alt="桌面茶杯与拍摄台本，用于溏心日常vlog配图">
+            <div class="body">
+              <span class="eyebrow">日常vlog</span>
+              <h3><a href="/#latest">溏心日常vlog：本子写到第三页就卡住</a></h3>
+              <p>镜头拍桌面台本和一碗溏心蛋，讲本周改词过程。和正片不是同一套节奏，适合当背景声。</p>
+              <div class="foot"><span>时长 7分05秒</span><span>11-02</span></div>
+            </div>
+          </article>
+          <article class="fcard">
+            <img src="https://picsum.photos/seed/tangbohu-backstage/480/300" width="480" height="300" loading="lazy" alt="片场灯光与摄影设备，用于幕后花絮配图">
+            <div class="body">
+              <span class="eyebrow">幕后花絮</span>
+              <h3><a href="/#latest">幕后花絮4条：谁在对诗时先笑场</a></h3>
+              <p>四条短花絮合起来 9 分钟，交代第 3 季第 6 集的走位和补拍，字幕标了具体时间点。</p>
+              <div class="foot"><span>共 4 条</span><span>11-07</span></div>
+            </div>
+          </article>
+          <article class="fcard">
+            <img src="https://picsum.photos/seed/tangbohu-poem/480/300" width="480" height="300" loading="lazy" alt="宣纸与毛笔书写场景，用于对诗加更配图">
+            <div class="body">
+              <span class="eyebrow">对诗加更</span>
+              <h3><a href="/#deep">对诗加更：三副上联为什么只留一副</a></h3>
+              <p>加更里给出的三副上联，最终只用一副。删掉的两副在花絮里被提起，理由说得也不全。</p>
+              <div class="foot"><span>时长 6分22秒</span><span>11-05</span></div>
+            </div>
+          </article>
+          <article class="fcard">
+            <img src="https://picsum.photos/seed/tangbohu-mask/480/300" width="480" height="300" loading="lazy" alt="扇面与戏服细节，用于角色支线配图">
+            <div class="body">
+              <span class="eyebrow">角色支线</span>
+              <h3><a href="/#channels">秋香线四集连看顺序（含华夫人两集）</a></h3>
+              <p>秋香出场并不连续。把四集按时间重排后，华夫人两集的动机才顺，适合二刷者。</p>
+              <div class="foot"><span>4 集</span><span>10-30</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="latest" aria-labelledby="latest-h">
+        <div class="sec-head">
+          <h2 id="latest-h">更新记录：11月第一周的条目变动</h2>
+          <span class="meta">倒序 · 可核对</span>
+        </div>
+        <ul class="update-list">
+          <li><span class="date">11-07 周六</span><span class="what"><b>「桃花坞对诗」下集</b>上线，正片第 4 季第 2 集；字幕轨补了手写批注一栏。<span class="badge new">正片</span></span></li>
+          <li><span class="date">11-07 周六</span><span class="what">幕后花絮新增 4 条，标注为第 3 季第 6 集补拍素材，合计 9 分 12 秒。<span class="badge new">花絮</span></span></li>
+          <li><span class="date">11-05 周四</span><span class="what">对诗加更一集，<b>三副上联只留一副</b>，加更里给的理由是「上联太满，下联没处放」。<span class="badge">加更</span></span></li>
+          <li><span class="date">11-02 周二</span><span class="what">溏心日常vlog 更新，拍的是台本第三页卡住的修改过程。<span class="badge">日常</span></span></li>
+          <li><span class="date">10-30 周五</span><span class="what">秋香线四集连看顺序页调整，把华夫人两集的位置往前挪了一格。</span></li>
+          <li><span class="date">10-27 周二</span><span class="what">第 1 季第 4 集旧版下架，换新压制的画面，时长从 11 分 58 秒变为 12 分 06 秒。<span class="badge">改版</span></span></li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="channels" aria-labelledby="channels-h">
+        <div class="sec-head">
+          <h2 id="channels-h">分类索引：按角色、场景、形式找一集</h2>
+          <span class="meta">共 10 类</span>
+        </div>
+        <div class="tag-index">
+          <a href="/#featured">唐伯虎点秋香正片 <span class="n">46</span></a>
+          <a href="/#latest">桥头对诗名场面 <span class="n">3</span></a>
+          <a href="/#comments">秋香出场集 <span class="n">9</span></a>
+          <a href="/#deep">华夫人两集动机线 <span class="n">4</span></a>
+          <a href="/#guide">溏心日常vlog合集 <span class="n">18</span></a>
+          <a href="/#latest">拍摄花絮与笑场 <span class="n">12</span></a>
+          <a href="/#reco">手写批注字幕 <span class="n">7</span></a>
+          <a href="/#compare">旧版与新版对照 <span class="n">5</span></a>
+          <a href="/#timeline">角色支线时间线 <span class="n">4</span></a>
+          <a href="/#faq">取景地与布景说明 <span class="n">6</span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep" aria-labelledby="deep-h">
+        <div class="sec-head">
+          <h2 id="deep-h">深度解析：对诗一场戏为什么能反复看</h2>
+          <span class="meta">唯一长文 · 附可核对表</span>
+        </div>
+        <article class="article">
+          <p class="lede">同一个桥头场景，正片 12 分 40 秒里有 8 分 12 秒在对话。三副上联留一副，删掉的两副不是写得差，是信息太满——这句判断，可以用加更和花絮里的时间点来核。</p>
+
+          <h3><span class="idx">01</span>三次录制的取舍，留下的是能接话的那副</h3>
+          <div class="cols">
+            <p>第 3 季第 6 集的桥头对诗，一共录过三次对句。加更（11-05）里给出的三副上联分别是七言、九言和一副拆成两截的短句。最终用的是七言那副，时长占本集 3 分 05 秒。</p>
+            <p>删掉的两副里，九言那副在花絮中只出现 11 秒，被标注为「下联没处放」。拆句那副更短，6 秒，字幕写「像打快板」。这是剪辑侧给出的理由，不是写作者的自我评价，可以对照时间码。</p>
+            <p>把这三条放在一起看，规则就清楚了：句子越满，回应空间越小；桥头戏靠来回接话推进，接不上就断。所以留下的七言不是更工整，是更空，能被下一个人接住。</p>
+          </div>
+          <div class="pullquote">「对诗不是比谁写得长，是看下一句有没有地方落脚。」<cite>—— 加更旁白，11-05，第 2 分 18 秒</cite></div>
+
+          <h3><span class="idx">02</span>判断拆成四层：事实、回应、转述、推测</h3>
+          <table class="judge-table">
+            <caption>围绕「删掉的两副上联」的四种信息层，按可核对程度排列</caption>
+            <thead>
+              <tr><th scope="col">层级</th><th scope="col">具体内容</th><th scope="col">可核对位置</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row"><span class="lvl fact">事实</span></th><td>第 3 季第 6 集正片时长 12 分 40 秒，对诗段落 8 分 12 秒。</td><td>正片进度条、11-07 花絮字幕轨</td></tr>
+              <tr><th scope="row"><span class="lvl reply">回应</span></th><td>加更称「上联太满，下联没处放」，属于剪辑侧解释。</td><td>11-05 加更第 2 分 18 秒</td></tr>
+              <tr><th scope="row"><span class="lvl relay">转述</span></th><td>花絮里有人提到「拆句那副像打快板」，是现场说法，未给原句。</td><td>11-07 花絮第 3 条</td></tr>
+              <tr><th scope="row"><span class="lvl guess">推测</span></th><td>九言那副可能因演员换气不顺被弃，属观众猜测，无素材佐证。</td><td>评论第 4 条（Lv.2）</td></tr>
+            </tbody>
+          </table>
+          <p>四层里只有第一层能直接点开核对；第二、三层是说法，第四层是猜测。把推测当事实转述，最容易被下一条花絮推翻。11-07 的四条花絮里，第 3 条只给了 11 秒的九言画面，没有原句，所以「换气不顺」目前站不住。</p>
+
+          <h3><span class="idx">03</span>旧版与新版的 8 秒差在哪</h3>
+          <p>第 1 季第 4 集在 10-27 换了新压制，时长从 11 分 58 秒变成 12 分 06 秒，多出 8 秒。对照后确认，多的是桥头全景的停留时间，台词没有变化。这也解释了为什么老观众觉得「节奏慢了」——不是加词，是镜头多停了 8 秒。</p>
+          <p>类似的改动在在档的 5 集里出现过，集中在第 1 季前 6 集。第 3 季之后没有再调整时长，剪辑侧在花絮里给的说法是「前面几集留白不够」。这条说法可以反驳：留白不足也可能只是当时排期紧，与创作意图无关，素材里没有直接证据。</p>
+        </article>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide" aria-labelledby="guide-h">
+        <div class="sec-head">
+          <h2 id="guide-h">体验指南：第一次看的五步顺序</h2>
+          <span class="meta">适合新观众</span>
+        </div>
+        <ol class="steps">
+          <li><b>先看一集日常vlog</b><span>11-02 那集 7 分 05 秒，镜头基本在桌面，能先熟悉口条和说话节奏，不涉及剧情。</span></li>
+          <li><b>再进第 3 季第 6 集正片</b><span>桥头对诗是信息密度最高的一集，先看它，后面花絮里的梗才有落点。</span></li>
+          <li><b>补 11-07 的四条花絮</b><span>按顺序看，第 3 条 11 秒的九言画面是理解「删两副」的关键素材。</span></li>
+          <li><b>对照旧版第 1 季第 4 集</b><span>只看多出的 8 秒全景，不必重看整集，能体会时长调整的方向。</span></li>
+          <li><b>最后看秋香线四集连看顺序</b><span>把华夫人两集前移后，动机线才顺；这条顺序是 10-30 调整过的。</span></li>
+        </ol>
+      </section>
+
+      <!-- 对照面板 -->
+      <section class="block" id="compare" aria-labelledby="compare-h">
+        <div class="sec-head">
+          <h2 id="compare-h">版本对照：旧版与新版该看哪个</h2>
+          <span class="meta">以第 1 季第 4 集为例</span>
+        </div>
+        <div class="compare">
+          <div class="panel ok">
+            <h3><span>新版（10-27 起）</span><span class="dot"></span></h3>
+            <ul>
+              <li>时长 12 分 06 秒，桥头全景多停 8 秒</li>
+              <li>台词与旧版一致，无增删</li>
+              <li>字幕轨带手写批注，共 7 处</li>
+              <li>画面重新压制，暗部细节更清楚</li>
+            </ul>
+          </div>
+          <div class="panel no">
+            <h3><span>旧版（已下架）</span><span class="dot"></span></h3>
+            <ul>
+              <li>时长 11 分 58 秒，全景收得早</li>
+              <li>台词相同，节奏显得更紧</li>
+              <li>无手写批注字幕</li>
+              <li>部分镜头偏灰，夜景噪点明显</li>
+            </ul>
+          </div>
+        </div>
+        <p class="sec-desc" style="margin-top:12px">如果只关心剧情，两版差别不大；如果在意镜头节奏，旧版的「紧」值得记住。想核对 8 秒，直接看新版桥头全景的起止时间码即可。</p>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block faq" id="faq" aria-labelledby="faq-h">
+        <div class="sec-head">
+          <h2 id="faq-h">常见问题：观看顺序、时长与字幕</h2>
+          <span class="meta">6 问</span>
+        </div>
+        <details>
+          <summary>唐伯虎点秋香正片一共多少集，从哪集开始看比较好？</summary>
+          <div class="ans"><p>在档正片 46 集，分三季加第 4 季前两集。新观众从第 3 季第 6 集桥头对诗起看，这一集把人物关系和说话方式都交代清楚了，回看前面的也不会乱。</p></div>
+        </details>
+        <details>
+          <summary>桥头对诗里删掉的两副上联，还能看到原句吗？</summary>
+          <div class="ans"><p>目前公开素材里没有完整原句。11-05 加更只给了三副上联的分类说明，11-07 花絮第 3 条里九言那副只出现 11 秒画面，字幕也没有全文。想看原文只能等后续加更。</p></div>
+        </details>
+        <details>
+          <summary>溏心日常vlog和正片是同一套布景吗？</summary>
+          <div class="ans"><p>布景相同，机位不同。日常vlog 基本固定在桌面和窗边两个机位，正片会用到桥头外景。11-02 那集能看到台本第三页卡住的修改痕迹，和正片里最终的台词能对上。</p></div>
+        </details>
+        <details>
+          <summary>手写批注字幕在第几集开始有？</summary>
+          <div class="ans"><p>从 11-07 上线的「桃花坞对诗」下集起，字幕轨多了一栏手写批注。此前在档的集数里只有 7 处零星批注，都属于后期补的，和正片台词不是同一层信息。</p></div>
+        </details>
+        <details>
+          <summary>秋香线四集连看顺序为什么要把华夫人两集往前挪？</summary>
+          <div class="ans"><p>按原发布时间看，华夫人两集夹在秋香出场中间，动机线索断了一次。10-30 调整后把这两集提到秋香第二次出场之前，因果关系才连得上。具体四集编号在分类索引里有链接。</p></div>
+        </details>
+        <details>
+          <summary>幕后花絮里的笑场片段，和正片是同一批素材吗？</summary>
+          <div class="ans"><p>不全是。11-07 的四条花絮里，第 1、2 条来自正片同一批素材，第 3、4 条是补拍时另录的，所以第 3 条只有 11 秒的九言画面，没有完整对句。补拍素材不进入正片，这是两套剪辑。</p></div>
+        </details>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="comments" aria-labelledby="comments-h">
+        <div class="sec-head">
+          <h2 id="comments-h">观众评论：桥头那场戏的七嘴八舌</h2>
+          <span class="meta">6 条 · 含中性意见</span>
+        </div>
+        <div class="comments">
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">桃</span><div><div class="who">桃花坞老陈</div><div class="when">11-07 21:14</div></div><span class="stars" style="margin-left:auto">★★★★★</span></div>
+            <p>下集的手写批注太好用了。前面看不懂「三副留一副」的地方，批注直接把 2 分 18 秒那句圈出来，省得自己拖进度条。</p>
+            <div class="ref">指向：<b>桃花坞对诗下集</b> 字幕批注</div>
+          </article>
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">阿</span><div><div class="who">阿枝不吃姜</div><div class="when">11-07 18:40</div></div><span class="stars" style="margin-left:auto">★★★☆☆</span></div>
+            <p>日常vlog 比正片好看是能说的吗。11-02 那集拍本子卡在第三页，比我追的剧真实，正片反而太满了。</p>
+            <div class="ref">指向：<b>溏心日常vlog 11-02</b></div>
+          </article>
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">石</span><div><div class="who">石桥底下</div><div class="when">11-06 09:02</div></div><span class="stars" style="margin-left:auto">★★★★☆</span></div>
+            <p>第 3 季第 6 集我看了三遍。九言那副被删我认，但花絮只给 11 秒，说服力不够。说是「下联没处放」，可九言的下联长什么样，压根没放出来。</p>
+            <div class="ref">指向：<b>花絮第 3 条</b> 九言画面</div>
+          </article>
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">秋</span><div><div class="who">秋香线考据党</div><div class="when">11-05 23:31</div></div><span class="stars" style="margin-left:auto">★★★★★</span></div>
+            <p>10-30 挪华夫人那两集真是救了我。之前按发布时间看，华夫人动机跳得莫名其妙，现在连看四集，前后对得上。</p>
+            <div class="ref">指向：<b>秋香线四集连看顺序</b></div>
+          </article>
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">半</span><div><div class="who">半页台本</div><div class="when">11-04 12:17</div></div><span class="stars" style="margin-left:auto">★★☆☆☆</span></div>
+            <p>旧版下架有点可惜。11 分 58 秒那个版本节奏更利落，新版多停 8 秒全景，反而有点拖。希望别把所有旧版都换掉。</p>
+            <div class="ref">指向：<b>第 1 季第 4 集</b> 版本对照</div>
+          </article>
+          <article class="cmt">
+            <div class="cmt-top"><span class="avatar">鸭</span><div><div class="who">一只鸭路过</div><div class="when">11-03 08:55</div></div><span class="stars" style="margin-left:auto">★★★★☆</span></div>
+            <p>对诗加更 6 分 22 秒有点短，三副上联各讲两句就完了。不过「上联太满，下联没处放」这句我记住了，比写作文的模板好用。</p>
+            <div class="ref">指向：<b>对诗加更 11-05</b></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news" aria-labelledby="news-h">
+        <div class="sec-head">
+          <h2 id="news-h">相关资讯：布景、排期与素材口径</h2>
+          <span class="meta">4 条</span>
+        </div>
+        <div class="news-grid">
+          <article class="news-item">
+            <div class="day"><b>11-07</b>周六</div>
+            <div>
+              <h3><a href="/#latest">花絮四条同日上线，补拍素材首次单独标注</a></h3>
+              <p>第 3、4 条标记为「补拍」，与正片素材分开压轨，合计 4 分 30 秒。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="day"><b>11-05</b>周四</div>
+            <div>
+              <h3><a href="/#deep">对诗加更给出三副上联分类，九言副未放全文</a></h3>
+              <p>加更 6 分 22 秒，第 2 分 18 秒处说明取舍理由，但未展示九言下联。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="day"><b>10-30</b>周五</div>
+            <div>
+              <h3><a href="/#channels">秋香线连看顺序调整，华夫人两集前移一格</a></h3>
+              <p>调整后四集连续看完约 47 分钟，动机线在第二集末尾衔接。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="day"><b>10-27</b>周二</div>
+            <div>
+              <h3><a href="/#compare">第 1 季第 4 集换新压制，时长增加 8 秒</a></h3>
+              <p>多出部分为桥头全景停留，台词零改动，旧版同日下架。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="reco" aria-labelledby="reco-h">
+        <div class="sec-head">
+          <h2 id="reco-h">相关推荐：按你想看的类型点进去</h2>
+          <span class="meta">3 组标签</span>
+        </div>
+        <div class="reco-groups">
+          <div class="reco-group">
+            <h3>先看这一类</h3>
+            <div class="tags">
+              <a href="/#featured">唐伯虎点秋香最出名一场</a>
+              <a href="/#latest">桥头对诗上集下集</a>
+              <a href="/#guide">第一次看从哪集进</a>
+              <a href="/#comments">秋香出场集排序</a>
+            </div>
+          </div>
+          <div class="reco-group">
+            <h3>想核对细节</h3>
+            <div class="tags">
+              <a href="/#deep">三副上联留哪副</a>
+              <a href="/#compare">旧版新版 8 秒差</a>
+              <a href="/#faq">手写批注字幕怎么开</a>
+              <a href="/#latest">补拍花絮时间码</a>
+            </div>
+          </div>
+          <div class="reco-group">
+            <h3>换个节奏看</h3>
+            <div class="tags">
+              <a href="/#latest">溏心日常vlog台本卡页</a>
+              <a href="/#timeline">角色支线时间线</a>
+              <a href="/#faq">日常与正片布景对照</a>
+              <a href="/#channels">取景地布景说明</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 时间线 -->
+      <section class="block" id="timeline" aria-labelledby="timeline-h">
+        <div class="sec-head">
+          <h2 id="timeline-h">时间线：两周内与对诗戏有关的事件</h2>
+          <span class="meta">10-27 至 11-07</span>
+        </div>
+        <ul class="timeline">
+          <li>
+            <div class="t-date">2026-11-07</div>
+            <div class="t-title">「桃花坞对诗」下集上线</div>
+            <p class="t-desc">正片第 4 季第 2 集，字幕轨新增手写批注；同日补 4 条幕后花絮。</p>
+          </li>
+          <li>
+            <div class="t-date">2026-11-05</div>
+            <div class="t-title">对诗加更一集</div>
+            <p class="t-desc">三副上联只留七言一副，加更第 2 分 18 秒处给出取舍说法。</p>
+          </li>
+          <li>
+            <div class="t-date">2026-11-02</div>
+            <div class="t-title">日常vlog 更新</div>
+            <p class="t-desc">拍台本第三页卡住的修改过程，与正片最终台词能对照。</p>
+          </li>
+          <li>
+            <div class="t-date">2026-10-30</div>
+            <div class="t-title">秋香线连看顺序调整</div>
+            <p class="t-desc">华夫人两集前移，四集连看约 47 分钟，动机线在第二集末衔接。</p>
+          </li>
+          <li>
+            <div class="t-date">2026-10-27</div>
+            <div class="t-title">第 1 季第 4 集换新压制</div>
+            <p class="t-desc">时长由 11 分 58 秒变为 12 分 06 秒，多出的是桥头全景。</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- 侧栏 -->
+    <aside aria-label="辅助导航与榜单">
+      <div class="side-card">
+        <h2>栏目导航</h2>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">栏目概览</a></li>
+          <li><a href="/#featured">精选取集</a></li>
+          <li><a href="/#latest">更新记录</a></li>
+          <li><a href="/#channels">分类索引</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#compare">版本对照</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐</a></li>
+          <li><a href="/#timeline">时间线</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h2>本周回看榜</h2>
+        <ol class="rank-list">
+          <li><a href="/#latest">桥头对诗下集</a><span class="r-n">第4季</span></li>
+          <li><a href="/#featured">对诗名场面第6集</a><span class="r-n">第3季</span></li>
+          <li><a href="/#latest">日常vlog台本卡页</a><span class="r-n">11-02</span></li>
+          <li><a href="/#latest">花絮4条合集</a><span class="r-n">11-07</span></li>
+          <li><a href="/#deep">对诗加更</a><span class="r-n">11-05</span></li>
+        </ol>
+      </div>
+      <div class="side-card">
+        <h2>关于这份档案</h2>
+        <p class="side-note">条目编号、时长、日期均按页面更新时的公开记录整理。正片与花絮分属两套剪辑，时长不能相加。<br><b>最后核对：2026-11-08</b>，对应正文更新记录与时间线两处。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" role="img" aria-label="页尾品牌标志">
+            <rect width="64" height="64" rx="15" fill="#b3441f"/>
+            <path d="M12 33h40c-1.6 12-9 19-20 19S13.6 45 12 33z" fill="#fbe9c6"/>
+            <circle cx="32" cy="27" r="9" fill="#ff9b3d"/>
+            <circle cx="32" cy="27" r="4.6" fill="#ffcf5c"/>
+            <path d="M44 12l3 5 5 1-4 4 1 5-5-3-5 3 1-5-4-4 5-1z" fill="#fff3dc" opacity=".92"/>
+          </svg>
+          <b>溏心vlog在线观看唐伯虎</b>
+        </div>
+        <p class="foot-pos">按角色、场景与录制批次归档的江南段子档案，逐集标注时长与版本差异，方便回看对照。</p>
+        <p class="foot-example">页内条目、日期、时长均为示例数据，用于演示结构与检索方式，不代表任何正式发布信息。</p>
+        <p class="foot-update">更新记录：2026-11-08 核对更新记录、时间线两处条目。</p>
+      </div>
+      <div>
+        <h3>看片入口</h3>
+        <ul>
+          <li><a href="/#featured">精选取集</a></li>
+          <li><a href="/#latest">更新记录</a></li>
+          <li><a href="/#channels">分类索引</a></li>
+          <li><a href="/#timeline">时间线</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>细读与对照</h3>
+        <ul>
+          <li><a href="/#deep">三副上联取舍</a></li>
+          <li><a href="/#compare">旧版新版对照</a></li>
+          <li><a href="/#guide">观看五步顺序</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>互动与推荐</h3>
+        <ul>
+          <li><a href="/#comments">观众评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#reco">相关推荐标签</a></li>
+          <li><a href="/#overview">栏目概览</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 示例站点 · 内容仅作归档演示</span>
+      <span>页面结构、数据与图像均为示意，无外部授权引用</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<div class="search-layer" id="searchLayer" role="dialog" aria-modal="true" aria-label="站内搜索">
+  <div class="search-box">
+    <form id="searchForm" role="search">
+      <input type="search" id="searchInput" placeholder="输入集名、角色或场景，如：桥头对诗" aria-label="搜索条目关键词" autocomplete="off">
+      <button class="btn btn-primary" type="submit">查找</button>
+    </form>
+    <div class="result" id="searchResult" aria-live="polite"></div>
+    <p class="hint">支持关键词匹配标题与简介；按 Esc 关闭。示例数据，仅供演示。</p>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "溏心vlog在线观看唐伯虎",
+  "description": "整理唐伯虎系列正片、溏心日常vlog与幕后花絮的分集目录、观看顺序与更新记录。",
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "唐伯虎点秋香正片一共多少集，从哪集开始看比较好？",
+      "acceptedAnswer": {"@type": "Answer", "text": "在档正片 46 集，分三季加第 4 季前两集。新观众从第 3 季第 6 集桥头对诗起看，人物关系和说话方式都交代清楚了。"}
+    },
+    {
+      "@type": "Question",
+      "name": "桥头对诗里删掉的两副上联，还能看到原句吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "目前公开素材里没有完整原句。11-05 加更只给了三副上联的分类说明，11-07 花絮第 3 条里九言那副只出现 11 秒画面。"}
+    },
+    {
+      "@type": "Question",
+      "name": "溏心日常vlog和正片是同一套布景吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "布景相同，机位不同。日常vlog 基本固定在桌面和窗边两个机位，正片会用到桥头外景。"}
+    },
+    {
+      "@type": "Question",
+      "name": "手写批注字幕在第几集开始有？",
+      "acceptedAnswer": {"@type": "Answer", "text": "从 11-07 上线的桃花坞对诗下集起，字幕轨多了一栏手写批注。此前在档的集数里只有 7 处零星批注。"}
+    },
+    {
+      "@type": "Question",
+      "name": "秋香线四集连看顺序为什么要把华夫人两集往前挪？",
+      "acceptedAnswer": {"@type": "Answer", "text": "按原发布时间看，华夫人两集夹在秋香出场中间，动机线索断了一次。10-30 调整后提到秋香第二次出场之前，因果关系才连得上。"}
+    },
+    {
+      "@type": "Question",
+      "name": "幕后花絮里的笑场片段，和正片是同一批素材吗？",
+      "acceptedAnswer": {"@type": "Answer", "text": "不全是。11-07 四条花絮里，前两条来自正片同一批素材，后两条是补拍另录，所以第 3 条只有 11 秒九言画面。"}
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  var menuBtn=document.getElementById('menuBtn');
+  var drawer=document.getElementById('drawer');
+  var body=document.body;
+
+  function closeMenu(){
+    drawer.classList.remove('open');
+    drawer.setAttribute('aria-hidden','true');
+    menuBtn.setAttribute('aria-expanded','false');
+    menuBtn.setAttribute('aria-label','打开栏目菜单');
+    body.classList.remove('menu-open');
+  }
+  function openMenu(){
+    drawer.classList.add('open');
+    drawer.setAttribute('aria-hidden','false');
+    menuBtn.setAttribute('aria-expanded','true');
+    menuBtn.setAttribute('aria-label','关闭栏目菜单');
+    body.classList.add('menu-open');
+  }
+  menuBtn.addEventListener('click',function(){
+    if(drawer.classList.contains('open')){closeMenu();}else{openMenu();}
+  });
+  drawer.addEventListener('click',function(e){
+    if(e.target.closest('a')){closeMenu();}
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){closeMenu();closeSearch();}
+  });
+
+  /* 回到顶部 */
+  var toTop=document.getElementById('toTop');
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return;
+    ticking=true;
+    requestAnimationFrame(function(){
+      if(window.scrollY>420){toTop.classList.add('show');}else{toTop.classList.remove('show');}
+      highlight();
+      ticking=false;
+    });
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  toTop.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  /* 侧栏高亮 */
+  var sideLinks=Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections=sideLinks.map(function(a){
+    var id=a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  });
+  function highlight(){
+    var pos=window.scrollY+130;
+    var current=-1;
+    sections.forEach(function(sec,i){
+      if(sec && sec.offsetTop<=pos){current=i;}
+    });
+    sideLinks.forEach(function(a,i){
+      a.classList.toggle('active',i===current);
+    });
+  }
+  highlight();
+
+  /* 搜索 */
+  var layer=document.getElementById('searchLayer');
+  var openBtn=document.getElementById('searchOpen');
+  var input=document.getElementById('searchInput');
+  var resultBox=document.getElementById('searchResult');
+  var form=document.getElementById('searchForm');
+  var index=[];
+
+  document.querySelectorAll('main h2, main h3').forEach(function(h){
+    var sec=h.closest('section');
+    if(!sec || !sec.id) return;
+    var card=h.closest('article, li, details');
+    var summary=h.querySelector('a');
+    var title=h.textContent.replace(/\s+/g,' ').trim();
+    if(summary){title=summary.textContent.trim();}
+    var brief='';
+    var p=card?card.querySelector('p'):h.nextElementSibling;
+    if(p){brief=p.textContent.replace(/\s+/g,' ').trim().slice(0,60);}
+    index.push({title:title,id:sec.id,brief:brief,hash:'/#'.concat(sec.id)});
+  });
+  document.querySelectorAll('aside .rank-list a, .tag-index a, .reco-group .tags a').forEach(function(a){
+    var id=(a.getAttribute('href')||'').replace('/#','');
+    if(!document.getElementById(id)) return;
+    var t=a.textContent.replace(/\s+/g,' ').trim();
+    index.push({title:t,id:id,brief:'索引条目',hash:'/#'+id});
+  });
+
+  function render(q){
+    q=(q||'').trim();
+    if(!q){resultBox.innerHTML='<p class="no-res">输入关键词开始查找，例如「花絮」「九言」「秋香」。</p>';return;}
+    var hits=index.filter(function(it){
+      return it.title.indexOf(q)>-1 || (it.brief||'').indexOf(q)>-1 || it.id.indexOf(q)>-1;
+    }).slice(0,14);
+    if(!hits.length){
+      resultBox.innerHTML='<p class="no-res">没有找到与「'+q.replace(/[<>&]/g,'')+'」匹配的条目。试试「桥头」「花絮」「日常」「旧版」。</p>';
+      return;
+    }
+    resultBox.innerHTML=hits.map(function(it){
+      return '<a href="'+it.hash+'"><b>'+it.title+'</b> — '+(it.brief||'栏目条目')+'</a>';
+    }).join('');
+  }
+  function openSearch(){
+    layer.classList.add('open');
+    input.value='';
+    render('');
+    setTimeout(function(){input.focus();},30);
+  }
+  function closeSearch(){
+    layer.classList.remove('open');
+  }
+  openBtn.addEventListener('click',openSearch);
+  layer.addEventListener('click',function(e){
+    if(e.target===layer){closeSearch();}
+  });
+  resultBox.addEventListener('click',function(e){
+    if(e.target.closest('a')){setTimeout(closeSearch,120);}
+  });
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    render(input.value);
+  });
+  input.addEventListener('input',function(){render(input.value);});
+})();
+</script>
+</body>
+        </html>
